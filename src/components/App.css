@@ -1,0 +1,158 @@
+/* Styles for the container of the weather information */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+.weather-container {
+    background-color:white; /* Set the background color to light blue */
+    margin-top: 15px; /* Add 20px of margin to the top */
+    border-radius: 5px; /* Round the corners of the container */
+    padding: 3px; /* Add some padding inside the container */
+    justify-content: space-between;
+    color: Black;
+    padding: 10px;
+  }
+  .back-ground{
+    background-color: #aca9a9;
+    padding-bottom: 3%;
+  }
+  /* Styles for the Navbar */
+  .CustomNavbar {
+    background-color: #1E1E1E; /* Set the background color to dark gray */
+    color: white; /* Set the font color to white */
+    padding: 1rem 0; /* Add some padding to the top and bottom */
+  }
+  
+  /* Styles for the links in the Navbar */
+  .CustomNavbar .nav-link {
+    color: white; /* Set the font color to white */
+    font-size: 1.2rem; /* Set the font size to 1.2rem */
+  }
+  
+  /* Styles for the dropdown toggle button in the Navbar */
+  .CustomNavbar .dropdown-toggle {
+    background-color: #007BFF; /* Set the background color to blue */
+    border-color: #007BFF; /* Set the border color to blue */
+    color: white; /* Set the font color to white */
+    font-size: 1.2rem; /* Set the font size to 1.2rem */
+  }
+  
+  /* Styles for the dropdown menu in the Navbar */
+  .CustomNavbar .dropdown-menu {
+    background-color: #1E1E1E; /* Set the background color to dark gray */
+    color: white; /* Set the font color to white */
+  }
+  
+  /* Styles for the items in the dropdown menu in the Navbar */
+  .CustomNavbar .dropdown-item {
+    color: white; /* Set the font color to white */
+    font-size: 1.2rem; /* Set the font size to 1.2rem */
+  }
+  
+  /* Styles for the hovered items in the dropdown menu in the Navbar */
+  .CustomNavbar .dropdown-item:hover {
+    background-color: #007BFF; /* Set the background color to blue */
+  }
+  
+  /* Styles for the Navbar brand */
+  .Navbar .navbar-brand {
+    color: white; /* Set the font color to white */
+    font-family: fantasy; /* Set the font family to fantasy */
+    font-size: 30px; /* Set the font size to 30px */
+  }
+  
+  /* Styles for the logo in the Navbar */
+  .logo {
+    height: 70px; /* Set the height to 70px */
+    width: 70px; /* Set the width to 70px */
+    border-radius: 50%; /* Make the image round */
+  }
+  .error{
+    color:red
+  }
+  .content{
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid  #aca9a9;
+  }
+  .content1{
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+  }
+
+  .title{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin: 5px;
+  }
+  .time{
+    margin: 7px;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  .left-content{
+    margin-top: 10px;
+    height: 110px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .image{
+    height: 100px;
+    width: 100px;
+    border-radius: 120px;
+  }
+  .temp{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2%;
+    margin-right: 4%;
+
+  }
+  .real-temp{
+    margin-top: 10%;
+    font-weight: 100;
+    margin-left: 12px;
+    font-family: 'Roboto', sans-serif;
+  }
+  table{
+    padding: 20px;
+    margin:20px 0px 20px 0px;
+  }
+ tr{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 2px;
+ }
+
+ .weather-condition{
+  padding: 5px;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+color: #aca9a9;
+ }
+.temp-img{
+  height: 100px;
+}
+.dropdown-menu {
+  scrollbar-width: none; /* modern browsers */
+  -ms-overflow-style: none; /* Internet Explorer */
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+
+.me-2{
+  width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
